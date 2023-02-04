@@ -1,7 +1,7 @@
 $('#login-button').click(function (event) {
     let userName = document.getElementById("userName").value;
     let pwd = document.getElementById("pwd").value;
-    if (userName == "root" && pwd == "root") {
+    if ((userName == "Mine" || userName == "mine") && (pwd == "Có" || pwd == "Cóo" || pwd == "Cóoo" || pwd == "Yes" || pwd == "Yep" || or || pwd == "Yup" || pwd == "YES")) {
         $('#h').text("HI THERE");
         event.preventDefault();
         $('form').fadeOut(500);
@@ -10,6 +10,6 @@ $('#login-button').click(function (event) {
             location.href = "BirthdayCake.html";
         }, 4000);
     } else {
-        alert("Oops, Something was Wrong. Sweetheart");
+        alert("Oops, You're not Giang. You are Mine.");
     }
 });
