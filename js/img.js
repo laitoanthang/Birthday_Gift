@@ -12,7 +12,7 @@ $(function () {
                 i++;
             }, 4000);
         } else {
-            $('.begin').html('<a href="Memories.html" style="text-decoration: none;color: #fff;background: pink;display: inline-block;padding: 10px;border: 2px solid #fff;">Mở Khóa Kỉ Niệm Lãng Mạn。</a>');
+            $('.begin').html('<a href="Memories.html" style="text-decoration: none;color: #fff;background: pink;display: inline-block;padding: 10px;border: 2px solid #fff;">Nhắn Nhủ</a>');
             $('.begin').fadeIn();
             return;
         }
